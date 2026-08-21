@@ -60,6 +60,10 @@ features:
     details: Digital Asset Management for images and media.
     link: /dam/
     linkText: Read docs
+  - title: DAM NextCloud
+    details: Mount your UnoPim DAM as a Nextcloud-compatible WebDAV drive. Share scoped, revocable folders with external users.
+    link: /dam-webdav/
+    linkText: Read docs
   - title: DeepL Translation
     details: Automatically generate translations from one locale to other locales.
     link: /deepl/
@@ -71,6 +75,10 @@ features:
   - title: Google Shopping
     details: Export product data from UnoPim to Google Shopping and Merchant Center.
     link: /google-shopping/
+    linkText: Read docs
+  - title: History Preview
+    details: View and compare previous versions of product data directly within UnoPim.
+    link: /history-preview/
     linkText: Read docs
   - title: Job Scheduler
     details: Automate import and export tasks.
