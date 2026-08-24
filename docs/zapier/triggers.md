@@ -27,11 +27,11 @@ For a Zap that cares *something* changed rather than exactly what.
 
 | Trigger in Zapier | Event key | Fires on |
 |---|---|---|
-| **Any Product Change** | `product.any` | all three product events |
-| **Any Category Change** | `category.any` | all three category events |
-| **Any Attribute Change** | `attribute.any` | all three attribute events |
-| **Any Family Change** | `family.any` | all three family events |
-| **Any Catalog Change** | `catalog.any` | **all twelve** concrete events |
+| **Changed Product** | `product.any` | all three product events |
+| **Changed Category** | `category.any` | all three category events |
+| **Changed Attribute** | `attribute.any` | all three attribute events |
+| **Changed Family** | `family.any` | all three family events |
+| **Changed Catalog Record** | `catalog.any` | **all twelve** concrete events |
 
 `catalog.any` is the one that saves real work. A single Zap can feed an audit trail, a data-warehouse table or a change log instead of twelve near-identical Zaps.
 
@@ -62,7 +62,7 @@ Nothing is queued at all when no subscription exists for an event, so an install
 
 ## Narrowing the payload
 
-The product triggers (and **Any Product Change**) expose two optional inputs:
+The product triggers (and **Changed Product**) expose two optional inputs:
 
 | Input | Effect |
 |---|---|
@@ -177,11 +177,11 @@ Zapier answers a webhook whose Zap is off with **HTTP 410 Gone**. That is the on
 
 ## Test trigger data
 
-Zapier's *Test trigger* step calls a sample endpoint that runs your **real records** through the **same transformer** as a live delivery. Three records by default - see `ZAPIER_SAMPLE_SIZE` in [Configuration](./configuration).
+Zapier's *Test trigger* step calls a sample endpoint that runs your **real records** through the **same transformer** as a live delivery, so the identity and metadata fields are exactly the ones that arrive at runtime. Three records by default - see `ZAPIER_SAMPLE_SIZE` in [Configuration](./configuration).
 
-This parity matters: if the sample and the live payload diverged, every field you mapped in the Zap editor would arrive empty at runtime.
+The integration then trims the sample down to the fields every delivery is guaranteed to carry, because Zapier rejects a sample that offers fields a real delivery may not have. Attribute values are therefore absent from the test step but present in a live delivery - see the note under [Payload shape](#payload-shape).
 
-`catalog.any` returns one record per entity type, so the editor shows you the shape every kind of catalog change produces.
+`catalog.any` returns at least four records so more than one entity shape is visible. Products are drawn first, so a catalogue with few recent category, attribute or family changes may show mostly products. Map on `entity` and `reference` rather than assuming a shape.
 
 ## Example Zaps
 
@@ -193,4 +193,4 @@ This parity matters: if the sample and the live payload diverged, every field yo
 | Product deleted | Set marketplace stock to 0 |
 | Category created | Create the matching collection in the storefront |
 | Attribute created | Notify the data-governance owner |
-| Any Catalog Change | Append to a BigQuery table for reporting |
+| Changed Catalog Record | Append to a BigQuery table for reporting |

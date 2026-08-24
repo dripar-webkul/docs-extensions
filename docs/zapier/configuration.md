@@ -55,7 +55,7 @@ If you are hitting the cap, the better fix is usually to set a **Channel** and *
 
 How many real records the sample endpoint returns for Zapier's *Test trigger* step. Three is enough to show the field shape without pulling a page of products on every test.
 
-The `catalog.any` sample returns one record per entity type, so it may return more than this value in order to show all four shapes.
+The `catalog.any` sample returns at least four records, drawn from products first and then the other entity types, so it can exceed this value.
 
 ---
 

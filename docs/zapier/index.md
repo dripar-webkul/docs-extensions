@@ -15,7 +15,7 @@ Every trigger is an **instant REST Hook**. UnoPim pushes the moment a record cha
 ## What you can do
 
 - **Trigger a Zap on any catalog change** - 17 instant triggers covering creates, updates and deletes for **products**, **categories**, **attributes** and **families**.
-- **Watch everything with one Zap** - five wildcard triggers, including *Any Catalog Change*, so you do not build twelve near-identical Zaps.
+- **Watch everything with one Zap** - five wildcard triggers, including *Changed Catalog Record*, so you do not build twelve near-identical Zaps.
 - **Write back into UnoPim** - Create Product, Update Product and Find Product actions, driven by any other app in your stack.
 - **Map fields without nesting** - product values are flattened onto one namespace, so a delivered payload carries `description__en_US` and `price__default__en_US` as plain top-level fields.
 - **Narrow the payload** - pick a locale and channel per connection when you only care about one storefront.
