@@ -31,7 +31,6 @@ Send UnoPim products to CS-Cart with their field values, features, categories, p
 | **Time Condition** | - | Export only products changed in the last *n* days or between two dates. |
 | **Identifiers** | - | Export only these SKUs. Leave empty for every product. |
 | **With Media** | - | Also send the images from **Attributes to use as Images**. |
-| **With Associations / Date Format** | - | Shared with UnoPim's standard product export. The CS-Cart export does not use them yet. |
 
 ![Product export filters](./assets/export/product-filter.png)
 

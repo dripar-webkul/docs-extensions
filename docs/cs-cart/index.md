@@ -41,7 +41,7 @@ Sync your **CS-Cart** store with UnoPim. Push enriched product data out to CS-Ca
 
 | Requirement | Details |
 |---|---|
-| **UnoPim** | 3.0 or later |
+| **UnoPim** | A running UnoPim install with admin access |
 | **PHP** | 8.4 or later |
 | **CS-Cart** | 4.x store with admin access |
 | **CS-Cart add-on** | `cscart_unopim.zip`, shipped with the connector - see [Installation](./installation#_1-install-the-cs-cart-add-on) |
