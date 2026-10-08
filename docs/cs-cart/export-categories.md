@@ -31,7 +31,7 @@ Send your UnoPim category tree to CS-Cart with its parent and child links, and o
 
 ## 3. Run it
 
-Click **Save Export**, then **Export Now**.
+Click **Save changes** in the bar at the bottom. UnoPim opens the profile page. Click **Export Now**.
 
 ![Export Now button](./assets/export/category-export-now.png)
 

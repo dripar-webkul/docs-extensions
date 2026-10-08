@@ -27,4 +27,4 @@ Pick the **Category field to use as the image**. The image UnoPim holds in that 
 
 ## Save
 
-Click **Save Mapping**. You see *Category mapping updated successfully.*
+Click **Save changes** in the bar at the bottom. You see *Category mapping updated successfully.*

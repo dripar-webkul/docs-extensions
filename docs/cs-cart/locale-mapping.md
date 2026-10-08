@@ -15,7 +15,7 @@ CS-Cart names its languages with short codes such as `en`, `fr`, or `de`. UnoPim
 ![Adding a locale mapping](./assets/locales-mapping/cs-locale.png)
 
 3. Repeat for every locale you plan to import or export.
-4. Click **Save Mapping**. You see *Locale mapping updated successfully.*
+4. Click **Save changes** in the bar at the bottom. You see *Locale mapping updated successfully.*
 
 ![Saved locale mappings](./assets/locales-mapping/save-locale.png)
 

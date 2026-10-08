@@ -1,5 +1,9 @@
 # CS-Cart Connector
 
+Store Link: [View on UnoPim Store](https://unopim.com/extensions/cs-cart-unopim-connector/)
+
+---
+
 Sync your **CS-Cart** store with UnoPim. Push enriched product data out to CS-Cart, or pull your existing CS-Cart catalog into UnoPim to enrich it.
 
 <br>

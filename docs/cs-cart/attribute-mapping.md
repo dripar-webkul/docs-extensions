@@ -15,7 +15,7 @@ Every CS-Cart product field is one row:
 | Column | Meaning |
 |--|--|
 | **CS-Cart Field** | The CS-Cart field the value goes into. |
-| **UnoPim Attribute** | The UnoPim attribute that supplies the value. Hover the row to see its **Supported UnoPim Types**. |
+| **UnoPim Attribute** | The UnoPim attribute that supplies the value. The **Supported UnoPim Types** are listed under each field name. |
 | **Fixed Value** | A constant sent for every product instead of an attribute, e.g. `N` for *Free Shipping*. |
 
 The dropdown only offers attributes whose type fits the field. *Price* accepts price or text attributes, *Free Shipping* accepts boolean ones, and *Full Description* accepts textarea or text ones.
@@ -55,6 +55,6 @@ Pick the **Channel**, **Locale**, and **Currency** that [Quick export](./quick-e
 
 ## Save
 
-Click **Save Mapping**. You see *Attribute mapping updated successfully.*
+Click **Save changes** in the bar at the bottom. You see *Attribute mapping updated successfully.*
 
 The next job uses the new mapping. A job that is already running keeps the mapping it started with.

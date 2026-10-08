@@ -35,9 +35,13 @@ Send UnoPim products to CS-Cart with their field values, features, categories, p
 
 ![Product export filters](./assets/export/product-filter.png)
 
+Scroll down to **Data Filters** to narrow the export by family, status, completeness, change date, category, or SKU (**Identifiers**). **Attribute Conditions** below it lets you add rules on attribute values.
+
+![Product export data filters](./assets/export/product-data-filters.png)
+
 ## 3. Run it
 
-Click **Save Export**, then **Export Now**.
+Click **Save changes** in the bar at the bottom. UnoPim opens the profile page. Click **Export Now**.
 
 ![Export Now button](./assets/export/product-export-now.png)
 

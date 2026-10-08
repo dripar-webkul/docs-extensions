@@ -31,7 +31,7 @@ Send UnoPim attributes to CS-Cart as **features**. Run this before exporting pro
 
 ## 3. Run it
 
-Click **Save Export**, then **Export Now**.
+Click **Save changes** in the bar at the bottom. UnoPim opens the profile page. Click **Export Now**.
 
 ![Export Now button](./assets/export/attribute-export-now.png)
 

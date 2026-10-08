@@ -30,7 +30,7 @@ Pull CS-Cart **features** into UnoPim as attributes, so you can enrich them in U
 
 ## 3. Run it
 
-Click **Save Import**, then **Import Now**.
+Click **Save changes** in the bar at the bottom. UnoPim opens the profile page. Click **Import Now**.
 
 ![Import Now button](./assets/import/attribute-import-now.png)
 

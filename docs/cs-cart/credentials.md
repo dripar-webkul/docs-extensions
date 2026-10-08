@@ -66,7 +66,7 @@ Click the pencil icon on a row. The edit page has these tabs:
 
 ![Credential settings tab](./assets/cred-page/cred-settings.png)
 
-Click **Save Changes**.
+Click **Save changes** in the bar at the bottom.
 
 ## Delete a credential
 

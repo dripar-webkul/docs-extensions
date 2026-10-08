@@ -31,7 +31,7 @@ Pull CS-Cart products into UnoPim so you can enrich them - better descriptions, 
 
 ## 3. Run it
 
-Click **Save Import**, then **Import Now**.
+Click **Save changes** in the bar at the bottom. UnoPim opens the profile page. Click **Import Now**.
 
 ![Import Now button](./assets/import/product-import-now.png)
 
